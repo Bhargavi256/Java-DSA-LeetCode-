@@ -1,4 +1,4 @@
 # Java-DSA-LeetCode-
-# Practicing Java DSA 
-Imrpoving Problem Solving Skills
-Currently doing LinkedList Problems
+ Practicing Java DSA <br />
+Imrpoving Problem Solving Skills <br />
+#Currently doing LinkedList Problems <br/>
