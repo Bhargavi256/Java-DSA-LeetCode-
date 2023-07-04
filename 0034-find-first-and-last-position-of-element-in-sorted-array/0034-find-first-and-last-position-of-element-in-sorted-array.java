@@ -5,24 +5,24 @@ class Solution {
         int start = 0;
         int end = nums.length-1;
         int mid=0;
-         System.out.print(start+" start ");
-         System.out.print(mid+" mid ");
-         System.out.println(end+" end ");
+         // System.out.print(start+" start ");
+         // System.out.print(mid+" mid ");
+         // System.out.println(end+" end ");
         while(start<=end){
              mid =start + (end-start)/2;
             if(nums[mid]==target){
-                System.out.print(mid+"mid");
+                //System.out.print(mid+"mid");
               res   = mid;
                 end = mid-1;
             }
             else if(target<nums[mid])
             {
                 end = mid-1;
-                 System.out.print(end+"end");
+                 //System.out.print(end+"end");
             }
             else 
                 start = mid+1;
-             System.out.print(start+"start");
+             //System.out.print(start+"start");
         }
        a[0]=res;
          start = 0;
